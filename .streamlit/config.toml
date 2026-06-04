@@ -1,11 +1,10 @@
 [theme]
-    primaryColor="#710505"
-    backgroundColor="#5b0505"
-    secondaryBackgroundColor="#970808"
-    textColor="#F8FAFC"
-    font="Sans Serif"
-
+    primaryColor="#1E90FF"            # Biru cerah (Dodger Blue) untuk tombol, widget aktif, dan aksen
+    backgroundColor="#0B132B"         # Biru sangat gelap (Midnight Blue) untuk latar belakang utama
+    secondaryBackgroundColor="#1C2541" # Biru gelap sedang untuk sidebar dan kartu komponen
+    textColor="#F8FAFC"               # Putih pudar/terang agar teks sangat kontras dan mudah dibaca
+    font="sans serif"
 
 [client]
-    showErorDetails = false
+    showErrorDetails = false          # Perbaikan typo: "showErorDetails" menjadi "showErrorDetails"
     toolbarMode="minimal"
